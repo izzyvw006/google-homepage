@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+div.headnav{
+    height: 50px;
+}
+li.headfloatleft{
+    float:left;
+    padding-left: 15px;
+    
+    
+}
+li.headfloatright{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding-right: 15px;
+}
+div.hplogo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    float: center;
+    left: 25px;
+    padding-top: 109px;
+    
+}
+div.searchbar{
+    display: flex;
+    justify-content: center;
+    float: center;
+    padding-top: 20px;
+}
+div.searchbuttons{
+    display: flex;
+    justify-content: center;
+
+}
+div.footnav{
+    position: relative;
+    bottom: 10px;
+    padding-top: 400px;
+}
+li.footfloatleft{
+    float: left;
+    padding-left: 15px;
+}
+li.footfloatright{
+    float:right;
+    padding-right: 15px;
+}
